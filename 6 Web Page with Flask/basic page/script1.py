@@ -16,5 +16,10 @@ def home():
 def about():
     return render_template("about.html")
 
+@app.route('/Logan/')
+def Logan():
+    return render_template("Gunnin.html")
+
+
 if __name__=="__main__":
     app.run(debug=True)
